@@ -9,6 +9,9 @@ revolte:
       commentStyle: Balanced
     testSuite:
       command: npm run test
+  workflow:
+    developerWorkflow:
+      enabled: true
   env:
     preview:
       codeReview: true
